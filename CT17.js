@@ -4,7 +4,7 @@ function solution(n){
         if(n%d===0){
             if(d%2===1)cnt++;
             const pair=n/d;
-            if(pair!==d && (pair & 1)) cnt++;
+            if(pair!==d && (pair%2===1)) cnt++;
         }
     }
     return cnt;
