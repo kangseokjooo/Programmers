@@ -20,3 +20,5 @@ function solution(s) {
 console.log(solution("{{2},{2,1},{2,1,3},{2,1,3,4}}"))
 console.log(solution("{{1,2,3},{2,1},{1,2,4,3},{2}}"))
 console.log(solution("{{20,111},{111}}"))
+
+//Programmers L2 튜플
